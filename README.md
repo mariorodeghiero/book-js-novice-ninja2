@@ -7,7 +7,7 @@ Repositório utilizado para colocar em prática todos exemplos e exercícios apr
 ![icon](https://d2sis3lil8ndrq.cloudfront.net/books/f98a63ff-4e07-41cd-b6f7-4e3b1fbadf82.png)
 
 
-## Contents
+### Contents
 
 * Hello JavaScript
 * Programming Basics
@@ -25,6 +25,11 @@ Repositório utilizado para colocar em prática todos exemplos e exercícios apr
 * HTML5 APIs
 * Organizing Your Code
 * Next Steps
+
+License
+----
+
+MIT
 
 [JavaScript Novice to Ninja 2nd Edition]: <https://www.sitepoint.com/premium/books/javascript-novice-to-ninja/>
 
