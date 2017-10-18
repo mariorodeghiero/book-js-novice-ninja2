@@ -20,7 +20,26 @@
 
 		const listItems = document.getElementsByTagName('li');
 		const heroes = document.getElementsByClassName('hero');
+		const heroes2 = document.getElementById('roster');
 		
+		
+		const flashText = document.createTextNode('Flash');
+		const flash = document.createElement('li');
+		flash.textContent = 'Flash';
+
+		function createElement(tag, text) {
+			const el = document.createElement(tag);
+			el.textContent = text;
+			return el;
+		}
+
+		const aquaman = createElement('li', 'Aquaman');
+
+		heroes2.appendChild(flash);
+		heroes2.appendChild(aquaman);
+
+		heroes2.removeChild(aquaman);
+		heroes2.appendChild(aquaman);
 
 	</script>
 </body>
