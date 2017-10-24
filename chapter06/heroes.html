@@ -6,6 +6,8 @@
 </head>
 <body>
 	<header>
+
+		<!-- PAGE 280 -->
 	  <h1 id='title'>Justice League</h1>
 	</header>
 	<ul id='roster'>
@@ -34,12 +36,17 @@
 		}
 
 		const aquaman = createElement('li', 'Aquaman');
+		aquaman.style.border = "red 1px solid";
 
 		heroes2.appendChild(flash);
 		heroes2.appendChild(aquaman);
 
 		heroes2.removeChild(aquaman);
 		heroes2.appendChild(aquaman);
+
+		const superman = heroes2.children[0];
+		superman.style.border = "red 2px solid";
+		superman.style.backgroundColor = 'blue';
 
 	</script>
 </body>

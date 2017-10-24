@@ -4,7 +4,6 @@ const quiz = [
               { name: "Batman",realName: "Bruce Wayne" },
             ];
 
-// View Object
 const view = {
   score: document.querySelector('#score strong'),
   question: document.getElementById('question'),
@@ -18,17 +17,15 @@ const view = {
   }
 };
 
-// Game Object
 const game = {
   start(quiz){
     this.score = 0;
     this.questions = [...quiz];
-    // main game loop
+
     for(const question of this.questions){
       this.question = question;
       this.ask();
     }
-    // end of main game loop
     this.gameOver();
   },
   ask(){
