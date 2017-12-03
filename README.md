@@ -1,6 +1,6 @@
 #  Javascript Novice to Ninja 2nd Edition
 
-Repositório utilizado para colocar em prática todos exemplos e exercícios apresentados no livro [JavaScript Novice to Ninja 2nd Edition] de [Darren Jones].
+Repository used to put into practice all examples and exercises presented in the book [JavaScript Novice to Ninja 2nd Edition] de [Darren Jones].
 
 
 
