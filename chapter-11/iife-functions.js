@@ -5,3 +5,5 @@
     const today = days[date.getDay()];
     console.log(`Welcome back ${name}. Today is ${today}`);
 })();
+
+
